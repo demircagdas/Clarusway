@@ -5,12 +5,14 @@ h2{
 #par1{
     color: blue;
     text-align: center;
+    text-transform: capitalize;
     
 }
 
 #par2{
     color: red;
     text-align: right;
+    text-transform: lowercase;
 
 }
 
@@ -24,9 +26,11 @@ h2{
 #par4{
     color: brown;
     text-decoration: underline;
+    text-indent: 2rem;
 }
 
 #par5{
     color: black;
     text-decoration: overline wavy red;
+    text-transform: uppercase;
 }
