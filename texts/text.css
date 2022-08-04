@@ -1,3 +1,7 @@
+body{
+    background-color: blanchedalmond;
+}
+
 h2{
     text-align: center;
 }
@@ -6,6 +10,8 @@ h2{
     color: blue;
     text-align: center;
     text-transform: capitalize;
+    direction: rtl;
+    unicode-bidi: bidi-override;
     
 }
 
@@ -13,6 +19,8 @@ h2{
     color: red;
     text-align: right;
     text-transform: lowercase;
+    line-height: 3rem;
+    text-shadow: 3px 3px 5px;
 
 }
 
@@ -27,10 +35,12 @@ h2{
     color: brown;
     text-decoration: underline;
     text-indent: 2rem;
+    letter-spacing: 10px;
 }
 
 #par5{
     color: black;
     text-decoration: overline wavy red;
     text-transform: uppercase;
+    word-spacing: 4rem;
 }
