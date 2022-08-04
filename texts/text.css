@@ -4,24 +4,29 @@ h2{
 
 #par1{
     color: blue;
+    text-align: center;
     
 }
 
 #par2{
     color: red;
+    text-align: right;
 
 }
 
 #par3{
     color: green;
+    text-align: justify;
+    text-decoration: line-through dashed red 2px;
 
 }
 
 #par4{
     color: brown;
-
+    text-decoration: underline;
 }
 
 #par5{
-    color: bisque;
+    color: black;
+    text-decoration: overline wavy red;
 }
