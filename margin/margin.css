@@ -12,4 +12,10 @@ h1{
 
 #par2{
     background-color: aqua;
+    
+}
+
+.container{
+    border: 2px solid red;
+    margin: 40px;
 }
