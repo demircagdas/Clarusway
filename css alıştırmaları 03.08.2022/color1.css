@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+}
+
+.container{
+    background-color: rgb(83, 78, 72);
+}
+
+.box1{
+    background-color: rgb(21, 37, 37);
+}
+
+.box2{
+    background-color: blueviolet;
+    border: 3px solid red;
+    margin: 20px 50px 30px;
+    width: 100px;
+}
+
+.box3{
+    background-color: brown;
+}
+

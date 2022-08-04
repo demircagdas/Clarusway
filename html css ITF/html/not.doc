@@ -1,0 +1,12 @@
+<b> bold yani kalın yapar
+<strong> daha da kalın önemli yapar
+<i> italik yapar
+<em> italik yapar ama daha önemli kelimeyi vurgular aynı b ve strong gibi
+<small> font u bir tık küçültür
+<sup> üslü yazımlarda kullanılır
+<sub> yazıyı alta almak için kullanılır
+<mark> sarı kalemle çizilmiş gibi yapar
+<ins> altını çizer
+<del> üstünü çizer
+<ol> listesi: <li> ile tek tek yazılır. sıralı listedir.
+<ul> listesi: <li> ile tek tek yazılır. sırasız listedir.

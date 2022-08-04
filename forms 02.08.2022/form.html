@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <h1>Welcome to Clarusway</h1>
+
+
+    <form action="result.html" method="get">
+       
+       
+       <div>
+          <label for="name">Adınızı Giriniz:</label>
+        <input type="text" name="isim" id="name" placeholder="Lütfen adınızı giriniz" required>
+        <br><br>
+
+        <label for="lname">Soyadınızı Giriniz:</label>
+        <input type="text" name="soyisim" id="lname" placeholder="Lütfen soyadınızı giriniz" required>
+        </div>
+       
+       <div>
+            <label for="sifre">Parolanızı Giriniz:</label>
+            <input type="password" name="Girilen Parola" id="sifre" placeholder="Lütfen Şifrenizi Giriniz" required>
+            
+       </div>
+
+       <div>
+            <p>Cinsiyetinizi Giriniz:</p>
+            <label for="gender1">Erkek</label>
+            <input type="radio" name="cinsiyet" id="gender1" value="erkek">
+            <label for="gender2">Kadın</label>
+            <input type="radio" name="cinsiyet" id="gender2" value="kadın">
+
+       </div>
+       
+
+       <div>
+            <p>favori hayvanlarınızı işaretleyin</p>
+            
+            <input type="checkbox" name="hayvan_1" id="panda" value="panda">
+            <label for="panda">panda</label>
+            <br>
+            <input type="checkbox" name="hayvan_2" id="balık" value="balık">
+            <label for="balık">balık</label>
+            <br>
+
+            <input type="checkbox" name="hayvan3" id="aslan" value="aslan">
+            <label for="aslan">aslan</label>
+
+       </div>
+
+       <div>
+            <label for="age">Yaş:</label>
+            <input type="number" name="Girilen yaş" id="age" min="18" max="45">
+
+
+       </div>
+
+
+       <div>
+          <label for="searh">Ara:</label>
+          <input type="search" name="Aranan Kelime" id="search">
+
+
+       </div>
+          <label for="renk">Renk seçin</label>
+          <input type="color" name="seçilen renk" id="renk">
+       <div>
+          <label for="email">Email girin</label>
+          <input type="email" name="Girilen email" id="email">
+
+       </div>
+
+       <div>
+          <label for="dosya">Dosya seçiniz</label>
+          <input type="file" name="seçilen dosya" id="dosya">
+
+       </div>
+
+       <div>
+          <label for="tarih">Tarihi seçiniz</label>
+          <input type="date" name="seçilen tarih" id="tarih">
+
+       </div>
+
+       <div>
+          <label for="no">Tel no:</label>
+          <input type="tel" name="tel_no" id="no">
+
+       </div>
+
+
+       <div>
+          <label for="seker">Hangi tatlıyı istersiniz:</label>
+          <br>
+          <select name="seçilen tatlı" id="seker">
+               <option value="sütlaç">sütlaç</option>
+               <option value="keşkül">keşkül</option>
+               <option value="aşure">aşure</option>
+               <option value="kadayıf">kadayıf</option>
+
+          </select>
+
+       </div>
+
+       <div>
+          <label for="input-browser">Hangi Browser'ı Tercih ediyorsunuz</label>
+          <input type="text" name="Kullanılan browser" id="input-browser" list="browsers">
+          
+          <datalist id="browsers">
+               <option value="Firefox"></option>
+               <option value="Chrome"></option>
+               <option value="Opera"></option>
+               <option value="Tor"></option>
+               <option value="Yandex"></option>
+
+          </datalist>
+
+       </div>
+
+       <div>
+          <fieldset>
+               <legend>Kişisel Bilgiler</legend>
+               <label for="fname">İsim</label>
+               <input type="text" name="isim">
+               <br>
+               <label for="sname">Soyisim</label>
+               <input type="text" name="soyisim">
+
+          </fieldset>
+
+       </div>
+        <br><br><br><br><br>
+        <input type="submit" value="Gönder">
+
+    </form>
+</body>
+</html>
