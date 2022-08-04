@@ -1,0 +1,29 @@
+body{
+    padding: 50px;
+    margin: 50px;
+}
+
+a{
+    padding: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 20px;
+    color: black;
+    
+
+}
+
+a:hover{
+    background-color: gray;
+    color: white;
+
+}
+
+a:visited{
+    
+}
+
+a:active{
+    background-color: red;
+}
