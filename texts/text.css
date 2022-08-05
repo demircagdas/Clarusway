@@ -7,6 +7,7 @@ h2{
 }
 
 #par1{
+    background-color: aqua;
     color: blue;
     text-align: center;
     text-transform: capitalize;
