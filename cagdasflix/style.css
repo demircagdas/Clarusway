@@ -5,10 +5,7 @@
   }
   
   body {
-    background-image: url(./img/background_image.jpg);
-    /* background-size: cover; */
-    /* position: center; */
-    /* background-repeat: no-repeat; */
+    background-image: url(./pictures/background_image.jpg);
     color: white;
     font-family: "Roboto";
   }
@@ -39,7 +36,7 @@
   }
   
   #survey-form {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.750);
     width: 400px;
     margin: 0px auto ;
     padding-top: 5px;
