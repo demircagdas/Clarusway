@@ -39,3 +39,17 @@ console.log( typeof typeof 40)
 console.log('hello')
 
 
+let c = null
+
+console.log(typeof c)
+
+// do {
+//     x = prompt('enter a number :');
+// } while(isNaN(x));
+
+// console.log(x, x*x5)
+
+console.log('12' === 12)
+
+console.log('12' * '12')
+
