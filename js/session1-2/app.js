@@ -66,3 +66,11 @@ console.log(k, typeof k)
 let userName = 'Çağdaş';
 console.log('Merhaba', userName)
 console.log(`Merhaba ${userName}`)
+
+
+let cn = 8>5;
+let co = 42 == 35;
+
+console.log(`cn = ${cn}`)
+console.log(`co = ${co}`)
+
