@@ -36,3 +36,6 @@ console.log(typeof '')
 console.log( typeof typeof 40)
 
 
+console.log('hello')
+
+
