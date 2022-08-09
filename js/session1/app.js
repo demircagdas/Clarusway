@@ -53,3 +53,16 @@ console.log('12' === 12)
 
 console.log('12' * '12')
 
+
+let i = 'this is a string';
+let j = "this is a string";
+let k = "this is a string";
+
+console.log(typeof i)
+console.log(typeof j)
+console.log(k, typeof k)
+
+
+let userName = 'Çağdaş';
+console.log('Merhaba', userName)
+console.log(`Merhaba ${userName}`)
