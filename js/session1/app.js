@@ -24,3 +24,15 @@ console.log(a);
 }
 
 console.log(a);
+
+
+console.log(typeof 0)
+console.log(typeof a)
+console.log(typeof 3.14)
+console.log(typeof 'hello')
+console.log(typeof (8>10))
+console.log(typeof ' ')
+console.log(typeof '')
+console.log( typeof typeof 40)
+
+
