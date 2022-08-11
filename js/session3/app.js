@@ -32,3 +32,26 @@ console.log(`result -> ${result}`);
 
 
 
+// let sideA, sideB;
+
+// sideA = +prompt("Enter the length of side A");
+// sideB = +prompt("Enter the length of side B");
+
+// console.log(`The area of the rectangle is ${sideA * sideB}`);
+
+// let radius;
+
+// radius = +prompt("Enter the radius of the circle");
+
+// console.log(`The area of the circle is ${Math.PI * radius * radius}`);
+
+// console.log(`The perimeter of the circle is ${2 * Math.PI * radius}`);
+
+
+
+// Celcius fahrenait a dönüşümü
+
+// let celcius = +prompt("derece giriniz")
+//  let fah = (9*celcius +(180))/5
+//  console.log(fah)
+
