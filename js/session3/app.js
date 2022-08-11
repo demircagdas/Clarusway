@@ -20,3 +20,15 @@ console.log(`result -> ${result}`);
 // const resultC = nullValue ?? "Hello World";
 
 
+
+
+// iki sayının çarpımı ve birbirine bölünmesi
+
+// let x = +prompt("enter a number")
+// let y = +prompt("enter other number")
+// console.log(x*y)
+// console.log(x/y)
+
+
+
+
