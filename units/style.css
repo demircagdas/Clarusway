@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+
+}
+
+.abs{
+    background-color: aqua;
+}
+
+.div2{
+    background-color: chocolate;
+    width: 50%;
+
+}
+
+.div3{
+    background-color: yellow;
+    width: 50%;
+    height: 20vh;
+}
+
+.div4{
+    background-color: darkmagenta;
+    width: 50vw;
+}
