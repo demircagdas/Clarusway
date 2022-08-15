@@ -1,0 +1,23 @@
+.container{
+    height: 100vh;
+}
+
+header{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons img{
+    width: 1.5rem;
+}
+
+.search img{
+    width: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
