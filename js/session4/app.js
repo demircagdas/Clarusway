@@ -26,9 +26,9 @@ console.log("****** CONDITIONS *******");
 
 // 3 sayı iste ve en büyüğünü yazdır.
 
-// const n1 = prompt("Sayi1")
-// const n2 = prompt("Sayi2")
-// const n3 = prompt("Sayi3")
+// const n1 = +prompt("Sayi1")
+// const n2 = +prompt("Sayi2")
+// const n3 = +prompt("Sayi3")
 
 // if (n1 >= n2 && n1 >= n3) {
 //     console.log(`${n1} en büyük sayıdır.`);
