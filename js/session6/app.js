@@ -35,5 +35,12 @@ function tekcift(sayi) {
     return sayi % 2 ? "Tektir" : "Çifttir"
 }
 
-tekcift(5);
-tekcift(2);
+console.log(tekcift(5));
+console.log(tekcift(4));
+
+
+
+
+
+
+
