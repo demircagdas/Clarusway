@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+section {
+  display: block;
+}
+.section1 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+}
+
+.clarusway1 {
+  background-color: black;
+  font-size: 3rem;
+  color: white;
+  padding: 2rem;
+  border-radius: 30px 0px;
+  letter-spacing: 0.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.Full-Stack {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+}
+
+.Full-Stack h2 {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.bg2 {
+  background-image: url(./img/bg2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+}
+
+.clarusway2 {
+  width: 30%;
+  margin: 1rem;
+}
+
+.AWS h2 {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.clarusway_png {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.section2 {
+  text-align: center;
+  padding: 3rem 5rem;
+  display: block;
+  background-color: #282e34;
+  color: #ddd;
+}
+.Data_Analytics h2 {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.bg3 {
+  background-image: url(./img/bg3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.par2 {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
+
+.section3 {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+  text-align: center;
+  padding: 3rem 5rem;
+}
+
+.bg4 {
+  background-image: url(./img/bg4.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.why h2 {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.section4 {
+  text-align: center;
+  padding: 3rem 5rem;
+  display: block;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.bg5 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.lastt {
+  background-color: black;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+
+.bg6 {
+  background-image: url(./img/bg1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  min-height: 80%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.link h2 {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.link h2 a {
+  text-decoration: none;
+  background-color: rgb(241, 241, 241);
+  color: #666;
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+  transition: ease-in 1.5s;
+}
+
+.link h2 a:hover {
+  color: rgb(241, 241, 241);
+  border: 2px solid darkgoldenrod;
+  border-radius: 15px;
+  background-color: darkgoldenrod;
+  transform: scale(90%);
+}
+
+.lethe{
+    color: red;
+}
+
+Footer
+©2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
