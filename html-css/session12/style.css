@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: red;
+    width: 20em;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.header{
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 1rem 1.5rem;
+    transition: all 1s;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: var(0.5rem);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.col{
+    padding: 1rem;
+    background-color: blueviolet;
+}
+
+
+.aws{
+    
+}
