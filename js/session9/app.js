@@ -66,3 +66,6 @@ console.log(kisiler);
 //? kisiler icerisindeki yaslar dizisinde bulunan 55 yasini konsola yazdiriniz.
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 44 yasini bir eksiltiniz.
+
+
+
