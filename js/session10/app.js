@@ -78,3 +78,37 @@ console.log("ORTALAMA:", toplam / notlar.length);
 
 
 
+//* =======================================================
+//*                 FOREACH METODU
+//* =======================================================
+
+
+
+let students = ["John", "Ali", "Ahmet"]
+
+students.forEach(yazdır)
+
+function yazdır(v){
+    console.log(v);
+}
+
+
+
+
+//?-------------- ÖRNEK -------------------
+//?  Dizideki herbir fiyati konsola bastiriniz.
+
+const prices = [100, 250, 50, 89];
+
+prices.forEach((p) => console.log(p));
+
+
+
+//?-------------- ÖRNEK -------------------
+//?  Prices dizisindekilerin toplamını konsola yazdırınız.
+
+
+let sum = 0;
+prices.forEach((price) => sum += price);
+
+console.log("SUM:", sum);
