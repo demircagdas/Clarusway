@@ -112,3 +112,20 @@ let sum = 0;
 prices.forEach((price) => sum += price);
 
 console.log("SUM:", sum);
+
+
+
+
+//?-------------- ÖRNEK -------------------
+//?  Prices dizisindeki her bir ara toplam değerini konsola bastırınız. Ayrıca her bir fiyata %10 zam yapınız
+
+
+
+let total = 0
+prices.forEach((price, index) => {
+    total += price
+    console.log(`${index+1}.iteration: ${total}`);
+    prices[index] = price * 1.1
+})
+
+console.log(prices);
