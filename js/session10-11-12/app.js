@@ -129,3 +129,6 @@ prices.forEach((price, index) => {
 })
 
 console.log(prices);
+
+
+
